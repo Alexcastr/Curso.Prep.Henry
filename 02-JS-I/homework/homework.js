@@ -53,17 +53,24 @@ function resta(x, y) {
 function multiplica(x, y) {
     // Multiplica "x" por "y" y devuelve el valor
     // Tu código:
+    return x * y;
+
+    multiplica(5 * 5)
 }
 
 function divide(x, y) {
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
+    return x / y;
+
+    divide(5 / 5)
 }
 
 function sonIguales(x, y) {
     // Devuelve "true" si "x" e "y" son iguales
     // De lo contrario, devuelve "false"
     // Tu código:
+
 }
 
 function tienenMismaLongitud(str1, str2) {
