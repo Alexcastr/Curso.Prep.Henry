@@ -210,7 +210,7 @@ function combinarNombres(nombre, apellido) {
     // Ejemplo: "Soy", "Henry" -> "Soy Henry"
     // Tu código:
     var combine = nombre + ' ' + apellido;
-    return combinado;
+    return combine;
 }
 
 function obtenerSaludo(nombre) {
@@ -218,7 +218,7 @@ function obtenerSaludo(nombre) {
     // "Martin" -> "Hola Martin!"
     // Tu código:
 
-    return hola + ' ' + nombre;
+    return 'Hola ' + nombre + '!';
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -233,7 +233,7 @@ function retornarPerimetro(lado) {
     //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
     //Escribe tu código aquí
 
-    return ldo * 4;
+    return lado * 4;
 }
 
 
@@ -261,10 +261,10 @@ function esVocal(letra) {
     //Escribe tu código aquí
 
     if (letra.length > 1) {
-        return 'dato incorrecto'
+        return "Dato incorrecto"
     }
-    if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
-        return 'Es vocal'
+    if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
+        return "Es vocal"
     }
 }
 
